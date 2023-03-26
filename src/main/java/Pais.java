@@ -20,7 +20,7 @@ public class Pais {
 		return nombre;
 	}
 	
-	public static String paisMasVendedor() {
+	public static Pais paisMasVendedor() {
 		int contador = 0;
 		Pais Vendedor=null;
 		for(Pais i:Paises) {

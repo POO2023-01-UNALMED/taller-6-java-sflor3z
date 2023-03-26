@@ -30,7 +30,7 @@ public class Fabricante {
 		return pais;
 	}
 	
-	public static String fabricaMayorVentas() {
+	public static Fabrica fabricaMayorVentas() {
 		int contador = 0;
 		Fabricante Vendedor=null;
 		for(Fabricante i:Fabricantes) {
