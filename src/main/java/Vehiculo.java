@@ -22,7 +22,7 @@ public class Vehiculo {
 		this.fabricante = fabricante;
 		CantidadVehiculos++;
 		fabricante.pais.contPais++;
-		fabricante.contFabrica++;
+		fabricante.contFabricante++;
 	}
 	
 	public void setPlaca(String placa) {
