@@ -39,6 +39,6 @@ public class Fabricante {
 				Vendedor=i;
 			}
 		}
-		return Vendedor.getNombre();
+		return Vendedor;
 	}
 }

@@ -29,6 +29,6 @@ public class Pais {
 				Vendedor=i;
 			}
 		}
-		return Vendedor.getNombre();
+		return Vendedor;
 	}
 }

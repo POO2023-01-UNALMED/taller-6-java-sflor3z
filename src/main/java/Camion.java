@@ -1,8 +1,8 @@
 package vehiculos;
 
 public class Camion extends Vehiculo{
-	private int ejes;
-	private static int cantidadCamiones = 0;
+	int ejes;
+	static int cantidadCamiones = 0;
 	
 	
 	public Camion(String placa, String nombre, int precio, int peso, Fabricante fabricante, int ejes) {
@@ -20,6 +20,6 @@ public class Camion extends Vehiculo{
 	}
 	
 	public static int getCantidadCamiones() {
-		return Camion.cantidadCamiones;
+		return cantidadCamiones;
 	}
 }
